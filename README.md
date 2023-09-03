@@ -1,8 +1,22 @@
-# React + Vite
+# BT CODE CLUB WEBSITE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The website
 
-Currently, two official plugins are available:
+## Development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get started, cd into the folder and install the dependencies:
+
+```bash
+cd btcodeclub
+npm install
+```
+
+Then, run the development server:
+
+```bash
+npm run dev
+```
+
+For the most part, you should not need to work in the root of the `src` directory, except for minor tweaks to `index.css`. However, note that `index.css` will apply styles *globally* to the site. If you need to add styles to a specific page, you should create a new CSS file in the `src/css` directory and import it into the page's JSX file.
+
+For more insight in how you can contribute, see the [CONTRIBUTING.md](CONTRIBUTING.md) file or open a new issue.
