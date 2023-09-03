@@ -37,7 +37,7 @@ main {
 }
 
 .hero::before{
-    filter: blur(4px);
+    filter: blur(7px);
     background: linear-gradient(rgba(20, 46, 174, 0.657), rgba(25, 56, 119, 0.498)), url("/code.jpg");
     background-blend-mode: multiply;
     background-size: cover;
@@ -64,7 +64,7 @@ main {
 
 
 .about {
-    padding: 1rem;
+    padding: 10rem;
     background-color: white;
 }
 
