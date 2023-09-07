@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <header>
             <HashLink to="#">
-                <h1>BT CODE CLUB</h1>
+                <img src="/hero.png" alt="" className="logo"/>
             </HashLink>
             <nav>
                 <ul>
@@ -15,7 +15,7 @@ const Header = () => {
                     <li><HashLink to="#events">Events</HashLink></li>
                     <li><HashLink to="#projects">Projects</HashLink></li>
                     <li><HashLink to="#team">Team</HashLink></li>
-                    <li><HashLink to="#contact">Contact</HashLink></li>
+                    <li><HashLink to="#contact">Join</HashLink></li>
                 </ul>
             </nav>
         </header>
