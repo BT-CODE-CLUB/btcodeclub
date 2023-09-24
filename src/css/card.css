@@ -1,0 +1,47 @@
+
+
+.card {
+    
+    font-size: 1rem;
+    font-family: "Exo 2", sans-serif;
+    border: 1px solid black;
+    min-height: 30vh;
+    max-height: 50vh;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.background::before {
+    z-index: -1;
+}
+
+.card-header img {
+
+}
+
+.card-body {
+
+}
+
+.card-body p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.card .title {
+    color: black;
+    font-size: 2rem;
+    text-align:center;
+}
