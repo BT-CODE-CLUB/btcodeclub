@@ -29,14 +29,21 @@ const Home = () => {
                 <div className="events spacing" id="events">
                     <h2 className="subtitle">Events</h2>
                     <div className="text-title center">2023-2024</div>
-                    <Card img="hacker.jpeg" title="BTCTF" date="TBD" description="A boring af ctf"/>
-                    <Card img="space.jpg" title="APCSP Arcade" date="TBD" description="A boring af ctf"/>
+                    <Card title="BTCTF" description=""/>
+                    <Card title="APCSP Arcade" description="A boring af ctf"/>
+                    <Card title="Recoursive Tutoring" description=""></Card>
+                    <Card title="ACSL Competitions" description=""></Card>
+                    <Card title="Hackathons"  description=""></Card>
                 </div>
                 <div className="projects spacing" id="projects">
                     <h2 className="subtitle">Projects</h2>
                     <div className="text-title center">2023-2024</div>
+                    <Card title="BTGPA"></Card>
+                    <Card title="BT Bus App"></Card>
+                    <Card title="BT COMPSCI Major Showcase"></Card>
+                    <div className="text-title center spacing">More On The Way!</div>
                 </div>
-                <div className="team spacing" id="team">
+                {/* <div className="team spacing" id="team">
                     <h2 className="subtitle">Team</h2>
                     <div className="text-title center">2023-2024</div>
                     <section id="members" className="members">
@@ -92,15 +99,15 @@ const Home = () => {
                             
                         </div>
                     </section>
-                </div>
-                <div className="contact spacing" id="contact">
+                </div> */}
+                <div className="contact spacing footer" id="join">
                     <h2 className="subtitle">Join</h2>
-                    <div className="text center">Discord</div>
-                    <div className="text center">Instagram</div>
+                    <div className="text-title center links"><a href="https://classroom.google.com/c/NDExNzM4NjY3ODM0?cjc=bf5iznt">Google Classroom</a></div>
+                    <div className="text-title center links"><a href="https://discord.gg/qKCqxk5BnR">Discord</a></div>
+                    <div className="text-title center links">Instagram</div>
+                    <div className="text-title center links"><a href="https://github.com/BT-CODE-CLUB">Github</a></div>
+                    
                 </div>
-                <footer>
-                    something
-                </footer>
             </main>
         </>
     )

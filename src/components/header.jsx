@@ -14,8 +14,8 @@ const Header = () => {
                     <li><HashLink to="#about">About</HashLink></li>
                     <li><HashLink to="#events">Events</HashLink></li>
                     <li><HashLink to="#projects">Projects</HashLink></li>
-                    <li><HashLink to="#team">Team</HashLink></li>
-                    <li><HashLink to="#contact">Join</HashLink></li>
+                    {/* <li><HashLink to="#team">Team</HashLink></li> */}
+                    <li><HashLink to="#join">Join</HashLink></li>
                 </ul>
             </nav>
         </header>

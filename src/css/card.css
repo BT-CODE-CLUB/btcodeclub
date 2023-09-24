@@ -36,11 +36,12 @@
 }
 
 .card-body p {
-
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 .card .title {
-    color: white;
+    color: black;
     font-size: 2rem;
     text-align:center;
 }
