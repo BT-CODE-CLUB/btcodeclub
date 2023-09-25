@@ -4,6 +4,12 @@ import PersonCard from "../components/PersonCard";
 import Card from "../components/Card"
 // import folder from "../components/folder"
 import "../css/Home.css";
+import Ctf from "../assets/ctf.jpg"
+import Recoursive from "../assets/recoursive.jpg"
+import Bt from "../assets/bt.jpg"
+import Acsl from "../assets/acsl.png"
+import Hackathon from "../assets/hackathon.png"
+import Apcsp from "../assets/apcsp.jpg"
 import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
@@ -29,11 +35,15 @@ const Home = () => {
                 <div className="events spacing" id="events">
                     <h2 className="subtitle">Events</h2>
                     <div className="text-title center">2023-2024</div>
-                    <Card title="BTCTF" description=""/>
-                    <Card title="APCSP Arcade" description="A boring af ctf"/>
-                    <Card title="Recoursive Tutoring" description=""></Card>
-                    <Card title="ACSL Competitions" description=""></Card>
-                    <Card title="Hackathons"  description=""></Card>
+                    <div className="card-group">
+                    <Card title="BTCTF" image = {Ctf} description="BT's very own Capture The Flag! Complete a series of missions aimed to help introduce the basics of hacking. No experience is necessary. The competition is aimed for complete beginners that build up to a general knowledge of cybersecurity. Bring a team to compete and have fun."/>
+                    <Card title="APCSP Arcade" image = {Apcsp} description="The AP Computer Science Principles class will be showcasing their video games on bring your child to work day! See what fun video games the BT COMPSCI sophomores have made!"/>
+                    <Card title="Recoursive Tutoring" image ={Recoursive} description="Earn volunteer hours through Recoursive! Get the opportunity to teach kids programming at a library. Teach HTML/CSS/JS, Python, Scratch and more. Great opportunity to improve on teaching skills, as well as a great way to contribute to the Bergen County community."/>
+                    <Card title="School Events" image={Bt} description="Whenever BT has an event, such as multicultural day, mental health day, or springfest, BT Code Club might host a fun event."/>
+                    <Card title="ACSL" image={Acsl} description=""/>
+                    <Card title="Hackathons" image = {Hackathon} description=""/>
+                    </div>
+                    <div className="text center">If you ever have an idea for an event, please join and tell us!</div>
                 </div>
                 <div className="projects spacing" id="projects">
                     <h2 className="subtitle">Projects</h2>
@@ -42,6 +52,7 @@ const Home = () => {
                     <Card title="BT Bus App"></Card>
                     <Card title="BT COMPSCI Major Showcase"></Card>
                     <div className="text-title center spacing">More On The Way!</div>
+                    <div className="text center">Want to contribute? Just ask!</div>
                 </div>
                 {/* <div className="team spacing" id="team">
                     <h2 className="subtitle">Team</h2>
