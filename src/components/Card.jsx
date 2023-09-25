@@ -5,11 +5,11 @@ const Card = (props) => {
     return (
         
         <div className="card">      
-            <div className="card-header">
-                <h4 className="title">{props.title}</h4>
-                <h5>{props.date}</h5>
+            <div className="card-image">
+                <img src = {props.image} alt={props.title}/>
             </div>
-            <div className="card-body">
+            <div className="card-text">
+                <h4 className="title">{props.title}</h4>
                 <p>{props.description}</p>
             </div>
         </div>

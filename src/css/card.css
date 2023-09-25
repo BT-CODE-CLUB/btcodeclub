@@ -1,21 +1,19 @@
 
 
 .card {
-    
     font-size: 1rem;
-    font-family: "Exo 2", sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 1px solid black;
-    min-height: 30vh;
-    max-height: 50vh;
-    border-radius: 15px;
+    min-height: 50vh;
+    max-height: 100vh;
+    border-radius: 5px;
     overflow: hidden;
     transition: all 0.2s ease-in-out;
     box-sizing: border-box;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-blend-mode: multiply;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
+    
 }
 
 
@@ -23,25 +21,35 @@
     transform: scale(1.05);
 }
 
-.background::before {
+
+/* .background::before {
     z-index: -1;
+} */
+.card-image {
+    overflow: hidden;
+    height: 25vh;
+    max-height: 40%;
+    display: flex;
+    border-bottom: 1px solid black;
 }
 
-.card-header img {
-
+.card-image img {
+    margin: auto;
+    aspect-ratio: 16/9;
+    height: 100%;
+    width: 100%;
 }
 
-.card-body {
 
-}
-
-.card-body p {
-    text-align: center;
-    font-size: 1.3rem;
+.card-text p {
+    margin: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
 }
 
 .card .title {
     color: black;
     font-size: 2rem;
     text-align:center;
+    text-decoration: underline;
 }

@@ -121,22 +121,13 @@ main {
 }
 
 
-.member-card-deck {
-    display: flex;
-    flex-wrap: wrap;
-    justify-items: space-between;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem auto 4rem;
-    text-align: center;
-    min-height: max-content;
+.card-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
 }
-
-.member-card-deck .member-card {
-    margin: 2rem 3rem;
-}
-
-
 
 .footer {
     padding-bottom: 5rem !important;
