@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/Header";
-import Block from "../components/Block";
 import PersonCard from "../components/PersonCard";
 import Card from "../components/Card"
 // import folder from "../components/folder"
