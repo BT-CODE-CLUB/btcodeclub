@@ -125,7 +125,15 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+.project-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    margin-bottom: 3rem;
     margin-top: 4rem;
 }
 

@@ -40,84 +40,18 @@ const Home = () => {
                     <Card title="APCSP Arcade" image = {Apcsp} description="The AP Computer Science Principles class will be showcasing their video games on bring your child to work day! See what fun video games the BT COMPSCI sophomores have made!"/>
                     <Card title="Recoursive Tutoring" image ={Recoursive} description="Earn volunteer hours through Recoursive! Get the opportunity to teach kids programming at a library. Teach HTML/CSS/JS, Python, Scratch and more. Great opportunity to improve on teaching skills, as well as a great way to contribute to the Bergen County community."/>
                     <Card title="School Events" image={Bt} description="Whenever BT has an event, such as multicultural day, mental health day, or springfest, BT Code Club might host a fun event."/>
-                    <Card title="ACSL" image={Acsl} description=""/>
-                    <Card title="Hackathons" image = {Hackathon} description=""/>
+                    <Card title="ACSL" image={Acsl} description="Compete in computer science problems! Win some awards, or gain some skills! No experience necessary!"/>
+                    <Card title="Hackathons" image = {Hackathon} description="Join BT CODE CLUB as we go all throughout NJ to compete in hackathons throughout the year. A hackathon, also known as a codefest, is a social coding event that brings computer programmers and other interested people together to improve upon or build a new software program. Gain friends and coding experience! No experience necessary. "/>
                     </div>
-                    <div className="text center">If you ever have an idea for an event, please join and tell us!</div>
+                    <div className="text center">If you ever have an idea for an event, or want to help, please join and tell us!</div>
                 </div>
-                <div className="projects spacing" id="projects">
-                    <h2 className="subtitle">Projects</h2>
-                    <div className="text-title center">2023-2024</div>
-                    <Card title="BTGPA"></Card>
-                    <Card title="BT Bus App"></Card>
-                    <Card title="BT COMPSCI Major Showcase"></Card>
-                    <div className="text-title center spacing">More On The Way!</div>
-                    <div className="text center">Want to contribute? Just ask!</div>
-                </div>
-                {/* <div className="team spacing" id="team">
-                    <h2 className="subtitle">Team</h2>
-                    <div className="text-title center">2023-2024</div>
-                    <section id="members" className="members">
-                        <div className="member-card-deck">
-                            <PersonCard
-                                    name="Anurag Mathews"
-                                    role="Leader"
-                                    description=""
-                                    image="https://avatars.githubusercontent.com/u/56193495?v=4"
-                                    links={[
-                                        {
-                                            icon: "fa-regular fa-envelope",
-                                            link: "mailto:email@example.com"
-                                        }
-                                    ]}
-                            />
-                            <PersonCard
-                                name="Noah Kim"
-                                role="co-Leader"
-                                description=""
-                                image="https://avatars.githubusercontent.com/u/56193495?v=4"
-                                links={[
-                                    {
-                                        icon: "fa-regular fa-envelope",
-                                        link: "mailto:email@example.com"
-                                    }
-                                ]}
-                            />
-                            <PersonCard
-                                name="Jake Park"
-                                role="co-Leader"
-                                description="Co-Leader"
-                                image="https://avatars.githubusercontent.com/u/56193495?v=4"
-                                links={[
-                                    {
-                                        icon: "fa-regular fa-envelope",
-                                        link: "mailto:email@example.com"
-                                    }
-                                ]}
-                            />
-                            <PersonCard
-                                name="Jake Park"
-                                role="co-Leader"
-                                description="Co-Leader"
-                                image="https://avatars.githubusercontent.com/u/56193495?v=4"
-                                links={[
-                                    {
-                                        icon: "fa-regular fa-envelope",
-                                        link: "mailto:email@example.com"
-                                    }
-                                ]}
-                            />
-                            
-                        </div>
-                    </section>
-                </div> */}
+                
                 <div className="contact spacing footer" id="join">
                     <h2 className="subtitle">Join</h2>
                     <div className="text-title center links"><a href="https://classroom.google.com/c/NDExNzM4NjY3ODM0?cjc=bf5iznt">Google Classroom</a></div>
                     <div className="text-title center links"><a href="https://discord.gg/qKCqxk5BnR">Discord</a></div>
-                    <div className="text-title center links">Instagram</div>
+                    <div className="text-title center links"><a href="https://instagram.com/btcodeclub?igshid=MzRlODBiNWFlZA==">Instagram</a></div>
                     <div className="text-title center links"><a href="https://github.com/BT-CODE-CLUB">Github</a></div>
-                    
                 </div>
             </main>
         </>
