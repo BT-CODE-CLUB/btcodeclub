@@ -150,7 +150,7 @@ a:link, a:active, a:visited {
 }
 
 
-@media screen and (max-width:900px){
+@media screen and (max-width:810px){
     .hero {
         height: 70vh;
         padding: 2rem;
@@ -183,7 +183,7 @@ a:link, a:active, a:visited {
 
 }
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 809px) {
     
     .hero {
         height: 50vh;
