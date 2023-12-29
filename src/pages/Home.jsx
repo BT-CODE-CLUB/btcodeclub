@@ -15,43 +15,38 @@ import { TypeAnimation } from 'react-type-animation';
 const Home = () => {
     return (
         <>
-            <Header />
+            
             <main className="home-body">
                 <div className="hero" id="main">
-                    {/* <div className="hero-img"></div> */}
-                    <h1><TypeAnimation sequence={["BT CODE CLUB", 5000, "Hello, World!", 1000, "Welcome!", 3000]} speed={10} repeat={Infinity}/></h1>
+                    <div className="hero-img"><img src="/hero.png" alt=""/></div>
                 </div>
-                
-                <div className="about spacing" id="about">
-                    <h2 className="subtitle">About</h2>
-                    <div className="text center">BT Code Club is a fun opportunity to explore computer skills and having fun.</div>
-                    <h5 className="text-title">Programming</h5>
-                    <div className="text">Learning to code teaches you problem-solving and promotes teamwork. Programmers make anywhere from $70,000 to over $200,000. At Code Club, we teach you the methods, disciplines, and languages that many companies use today. From learning how to work in teams and build big projects with GitHub, to learning must-needed languages such as Python and HTML/CSS/JS frameworks. Code Club wants you to participate in helping out and developing impressive projects, so even if you do not know much, our members are always willing to help out. Knowing how to program before college is very impressive to colleges, even if you don’t want to major in computer science. </div>
-                    <h5 className="text-title">Volunteering</h5>
-                    <div className="text">BT Code Club gives members the opportunity to volunteer. Partering with tutoring program Recoursive, run by our co-leader Noah Kim, students teach basic programming all throughout select Bergen County libraries to young kids. Members can also build projects for other clubs such as websites or source code for volunteer hours. This will be a good opportunity to both gain volunteer hours and contribute to both the Bergen Tech and Bergen County community. </div>
-                    <h5 className="text-title">Competing</h5>
-                    <div className="text">Competing is a great opportunity to showcase skills and build your college application. Code Club brings members all across the state to participate in Hackathons, where students work with others and use their programming skills to make projects to solve a social issue. Students have the opportunity to participate in ACSL and USACO, computer science competitions where an algorithm is created to get a desired output. Students get the chance to participate in CTFs, competitions where people in a team are challenged to find and exploit vulnerabilities in a system to capture a "flag" or piece of information to win. </div>
+                <div className="light">
+                    <h2 className="title">BTCTF</h2>
+                    <div className="center subtitle">Cybersecurity, The Fun Way!</div>
+                    <div className="text center">05/24/2024 - 5/26/2024</div>
+                    <div className="text spacing center">Registration coming out soon</div>
                 </div>
-                <div className="events spacing" id="events">
-                    <h2 className="subtitle">Events</h2>
-                    <div className="text-title center">2023-2024</div>
-                    <div className="card-group">
-                    <Card title="BTCTF" image = {Ctf} description="BT's very own Capture The Flag! Complete a series of missions aimed to help introduce the basics of hacking. No experience is necessary. The competition is aimed for complete beginners that build up to a general knowledge of cybersecurity. Bring a team to compete and have fun."/>
-                    <Card title="APCSP Arcade" image = {Apcsp} description="The AP Computer Science Principles class will be showcasing their video games on bring your child to work day! See what fun video games the BT COMPSCI sophomores have made!"/>
-                    <Card title="Recoursive Tutoring" image ={Recoursive} description="Earn volunteer hours through Recoursive! Get the opportunity to teach kids programming at a library. Teach HTML/CSS/JS, Python, Scratch and more. Great opportunity to improve on teaching skills, as well as a great way to contribute to the Bergen County community."/>
-                    <Card title="School Events" image={Bt} description="Whenever BT has an event, such as multicultural day, mental health day, or springfest, BT Code Club might host a fun event."/>
-                    <Card title="ACSL" image={Acsl} description="Compete in computer science problems! Win some awards, or gain some skills! No experience necessary!"/>
-                    <Card title="Hackathons" image = {Hackathon} description="Join BT CODE CLUB as we go all throughout NJ to compete in hackathons throughout the year. A hackathon, also known as a codefest, is a social coding event that brings computer programmers and other interested people together to improve upon or build a new software program. Gain friends and coding experience! No experience necessary. "/>
+                <div className="about spacing" id="faq">
+                    <h5 className="text-title">What is BTCTF?</h5>
+                    <div className="text">BTCTF is a CTF (Capture The Flag) competition run by Bergen Tech Teterboro Code Club. Teams of 1-4 Compete for 2 days to get "flags" by solving challenges related to cybersecurity topics such as web exploitation, forensics, reverse engineering, cryptography, binary exploitation, and basic skills / trivia</div>
+                    <h5 className="text-title">Who can sign up to compete?</h5>
+                    <div className="text">Anybody can sign up to compete! We are open to all and are very welcoming to beginners. We are hoping that people can have fun and learn from this competition. </div>
+                    <h5 className="text-title">What do I need to compete?</h5>
+                    <div className="text">You will need a computer with reliable internet. You might also need a Linux OS and some other online tools.</div>
+                    <h5 className="text-title">Will there be prizes?</h5>
+                    <div className="text">There will be prizes! Prizes will be announced later.</div>
+                    <h5 className="text-title">Do I need to pay to participate?</h5>
+                    <div className="text">No! We want everybody to participate. There will be no fees associated with registration</div>
+                    <h5 className="text-title">Do I need a team?</h5>
+                    <div className="text">Yes, we recommend that you work with a team, since it is a great way to find solutions, and have fun. Teams consist of 1-5 members, but if you want to work alone, you can.</div>
+                    <h5 className="text-title">I still have questions...</h5>
+                    <div className="text">Feel free to email or contact us!</div>
+                </div>
+                <div className="footer">
+                    <div className="events spacing center" id="contact">
+                        <h3 className="subtitle center">Contact Us</h3>
+                        <a href="" className="text center">btcodeclub@gmail.com</a>
                     </div>
-                    <div className="text center">If you ever have an idea for an event, or want to help, please join and tell us!</div>
-                </div>
-                
-                <div className="contact spacing footer" id="join">
-                    <h2 className="subtitle">Join</h2>
-                    <div className="text-title center links"><a href="https://classroom.google.com/c/NDExNzM4NjY3ODM0?cjc=bf5iznt">Google Classroom</a></div>
-                    <div className="text-title center links"><a href="https://discord.gg/qKCqxk5BnR">Discord</a></div>
-                    <div className="text-title center links"><a href="https://instagram.com/btcodeclub?igshid=MzRlODBiNWFlZA==">Instagram</a></div>
-                    <div className="text-title center links"><a href="https://github.com/BT-CODE-CLUB">Github</a></div>
                 </div>
             </main>
         </>

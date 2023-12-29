@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&family=Rubik+Glitch&family=Ubuntu+Mono&family=Ubuntu:wght@500&display=swap');
 header {
     position: fixed;
     width: 100vw;
@@ -18,14 +19,12 @@ header a {
 
 
 header h1 {
-    font-family: 'Agdasima', sans-serif;
+    font-family: 'Ubuntu Mono', sans-serif;
     letter-spacing: 0.10rem;
     color: black;
 }
 
-header h1:hover {
-    color: rgb(93, 63, 211);    
-}
+
 
 header ul {
     display: flex;
@@ -40,13 +39,14 @@ header ul li {
 }
 
 header ul li a {
-    font-family: Trebuchet MS, sans-serif;
+    
+    font-family: 'Ubuntu';
     text-decoration: none;
     color: black;
 }
 
 header ul li a:hover {
-    color: rgb(93, 63, 211);
+    color: rgb(0, 35, 163);
 }
 
 .logo {
