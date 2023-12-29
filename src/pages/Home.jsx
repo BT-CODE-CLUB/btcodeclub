@@ -38,7 +38,7 @@ const Home = () => {
                     <h5 className="text-title">Do I need to pay to participate?</h5>
                     <div className="text">No! We want everybody to participate. There will be no fees associated with registration</div>
                     <h5 className="text-title">Do I need a team?</h5>
-                    <div className="text">Yes, we recommend that you work with a team, since it is a great way to find solutions, and have fun. Teams consist of 1-5 members, but if you want to work alone, you can.</div>
+                    <div className="text">Yes, we recommend that you work with a team, since it is a great way to find solutions and to have fun. Teams consist of 1-5 members, but if you want to work alone, you can.</div>
                     <h5 className="text-title">I still have questions...</h5>
                     <div className="text">Feel free to email or contact us!</div>
                 </div>
