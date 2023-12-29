@@ -7,16 +7,10 @@ const Header = () => {
     return (
         <header>
             <HashLink to="#">
-                <img src="/hero.png" alt="" className="logo"/>
+                <h1>BT Code Club</h1>
             </HashLink>
             <nav>
-                <ul>
-                    <li><HashLink to="#about">About</HashLink></li>
-                    <li><HashLink to="#events">Events</HashLink></li>
-                    <li><HashLink to="#projects">Projects</HashLink></li>
-                    {/* <li><HashLink to="#team">Team</HashLink></li> */}
-                    <li><HashLink to="#join">Join</HashLink></li>
-                </ul>
+               
             </nav>
         </header>
     );

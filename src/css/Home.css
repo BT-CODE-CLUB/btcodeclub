@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Glitch&family=Ubuntu+Mono&family=Ubuntu:wght@700&display=swap');
+
 html {
     scroll-behavior:smooth
 }
@@ -7,38 +9,73 @@ body {
 }
 
 main {
+
+    font-family: 'Ubuntu Mono';
     height: max-content;
-    color:black;
+    color: #D3D3D3;
 }
 
+.hero-img {
+    padding-left: 1rem;
+    padding-top: 3rem;
+}
+
+img {
+
+    height: 15rem;
+    width: 25rem;
+}
+
+.light{
+    background: black;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.title {
+    color: #f8f8ff;
+    font-family: 'Rubik Glitch';
+    margin-top: 0rem;
+    padding-left: 1rem;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+
 .subtitle {
+    font-family: 'Rubik Doodle Shadow';
+    color: #FAF9F6;
     font-size: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-bottom: 1rem;
+
 }
 
 .text-title {
+    font-family: 'Rubik Doodle Shadow';
+    color: #FAF9F6;
     font-size: 1.7rem;
-    padding-left: 4rem;
+    padding-left: 1rem;
     padding-right: 4rem;
 }
 
 .text {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    padding-left: 2rem;
+    padding-right: 2rem;
     font-size: 1.5rem;
     text-align: left;
 }
 
 .hero { 
-    margin: 0;
+    filter: blur(0.5px);
     width: 100vw;
-    height: 60vw;
+    /* height: 60vw; */
+    background: black;
     box-sizing: border-box;
-    padding: 5rem;
-    padding-left: 5rem !important;
+    /* padding: 5rem; */
+    /* padding-left: 5rem !important; */
     position: relative;
     display: flex;
     justify-content: center;
@@ -46,22 +83,7 @@ main {
     
 }
 
-.hero::before{
-    filter: blur(3px);
-    background: linear-gradient(rgba(20, 46, 174, 0.657), rgba(25, 56, 119, 0.498)), url("/code.jpg");
-    background-blend-mode: multiply;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 70vw;
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
 
-}
 
 /* .hero-img {
     background: url("/hero.png");
@@ -90,19 +112,21 @@ main {
 }
 
 .hero h1 {
-    color: white;
+    
+    color: black;
     font-size: 7rem;
 }
 
 
 .about {
+    background: black;
     padding: 10rem;
-    background-color: white;
+
 }
 
 .events {
     padding: 10rem;
-    background-color: white;
+
 }
 
 .projects {
@@ -138,6 +162,7 @@ main {
 }
 
 .footer {
+    background: black;
     padding-bottom: 5rem !important;
 }
 
@@ -146,14 +171,14 @@ main {
 }
 
 a:link, a:active, a:visited {
-    color: black;
+    color: blue;
 }
 
 
 @media screen and (max-width:810px){
     .hero {
         height: 70vh;
-        padding: 2rem;
+        padding: 1rem;
         text-align: center;
     }
     .hero h1 {
@@ -187,7 +212,7 @@ a:link, a:active, a:visited {
     
     .hero {
         height: 50vh;
-        padding: 3rem;
+        padding: 1rem;
         text-align:center;
     }
 
