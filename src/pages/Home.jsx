@@ -19,6 +19,7 @@ const Home = () => {
             <main className="home-body">
                 <div className="hero" id="main">
                     <div className="hero-img"><img src="/hero.png" alt=""/></div>
+                    <div className="hero-img"><img src="/ctf.png" alt=""/></div>
                 </div>
                 <div className="light">
                     <h2 className="title">BTCTF</h2>
