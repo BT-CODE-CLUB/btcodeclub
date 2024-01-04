@@ -37,7 +37,7 @@ img {
     color: #f8f8ff;
     font-family: 'Rubik Glitch';
     margin-top: 0rem;
-    padding-left: 1rem;
+    
     font-size: 100px;
     text-align: center;
     margin-bottom: 0.5rem;
@@ -45,7 +45,7 @@ img {
 
 
 .subtitle {
-    font-family: 'Rubik Doodle Shadow';
+    font-family: 'Ubuntu';
     color: #FAF9F6;
     font-size: 3rem;
     padding-bottom: 1rem;
@@ -53,7 +53,7 @@ img {
 }
 
 .text-title {
-    font-family: 'Rubik Doodle Shadow';
+    font-family: 'Ubuntu';
     color: #FAF9F6;
     font-size: 1.7rem;
     padding-left: 1rem;
@@ -70,7 +70,7 @@ img {
 
 .hero { 
 
-    width: 100vw;
+
     /* height: 60vw; */
     background: black;
     box-sizing: border-box;
@@ -103,6 +103,7 @@ img {
 } */
 
 .spacing {
+    margin: auto;
     padding-top: 1.5rem !important;
     padding-bottom: 2.5rem !important;
 }
@@ -119,9 +120,16 @@ img {
 
 
 .about {
+
     background: black;
     padding: 10rem;
 
+}
+
+.faq {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-style: solid;
 }
 
 .events {
