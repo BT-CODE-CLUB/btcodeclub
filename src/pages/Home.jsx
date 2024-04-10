@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import PersonCard from "../components/PersonCard";
 import Card from "../components/Card"
+import CountdownTimer from "../components/CountdownTimer";
 // import folder from "../components/folder"
 import "../css/Home.css";
 import Ctf from "../assets/ctf.jpg"
@@ -19,17 +20,17 @@ const Home = () => {
             <main className="home-body">
                 <div className="hero" id="main">
                     <div className="hero-img"><img src="/hero.png" alt=""/></div>
-                    <div className="hero-img"><img src="/ctf.png" alt=""/></div>
                 </div>
                 <div className="light">
                     <h2 className="title">BTCTF</h2>
-                    <div className="text center">05/24/2024 - 5/26/2024</div>
+                    <div className="text center"><CountdownTimer targetDate="2024-05-24T20:00:00" /></div>
+                    <div className="text center">MAY 24-26 2024</div>
                     <div className="text spacing center">Registration coming out soon</div>
                 </div>
                 <div className="about spacing" id="faq">
                     <div className="faq">
                     <h5 className="text-title">What is BTCTF?</h5>
-                    <div className="text">BTCTF is the very first CTF (Capture The Flag) competition run by Bergen Tech Teterboro Code Club. Teams of 1-4 Compete for 2 days to get "flags" by solving challenges related to cybersecurity topics such as web exploitation, forensics, reverse engineering, cryptography, binary exploitation, and basic skills / trivia. The event will last from Friday, May 26th to Sunday, May 28th.</div>
+                    <div className="text">BTCTF is the very first CTF (Capture The Flag) competition run by Bergen Tech Teterboro Code Club. Teams of 1-4 Compete for 2 days to get "flags" by solving challenges related to cybersecurity topics such as web exploitation, forensics, reverse engineering, cryptography, binary exploitation, and basic skills / trivia. The event will last from Friday, May 24th to Sunday, May 26th.</div>
                     <h5 className="text-title">Who can sign up to compete?</h5>
                     <div className="text">Anybody can sign up to compete! We are open to all and are very welcoming to beginners. We are hoping that people can have fun and learn from this competition. </div>
                     <h5 className="text-title">What do I need to compete?</h5>
