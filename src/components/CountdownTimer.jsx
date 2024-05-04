@@ -30,9 +30,12 @@ function CountdownTimer({ targetDate }) {
 
   const timerComponents = [];
 
-  Object.keys(timeLeft).forEach(interval => {
-    if (!timeLeft[interval]) {
+  let prevShown = false;
+  Object.keys(timeLeft).forEach((interval, index) => {
+    if (!timeLeft[interval] && !prevShown) {
       return;
+    } else {
+        prevShown = true;
     }
 
     timerComponents.push(
