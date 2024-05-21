@@ -25,9 +25,13 @@ const Home = () => {
                     <h2 className="title">BTCTF</h2>
                     <div className="text center"><CountdownTimer targetDate="2024-05-24T20:00:00" /></div>
                     <div className="text center">MAY 24-26 2024</div>
-                    <div className="text spacing center">Registration coming out soon</div>
+                    <a href="https://btctf.us/">REGISTER HERE</a>
                 </div>
-                <div className="about spacing" id="faq">
+                <div>
+                    Sponsored by NJCCIC
+                    
+                </div>
+                <div className="about" id="faq">
                     <div className="faq">
                     <h5 className="text-title">What is BTCTF?</h5>
                     <div className="text">BTCTF is the very first CTF (Capture The Flag) competition run by Bergen Tech Teterboro Code Club. Teams of 1-4 Compete for 2 days to get "flags" by solving challenges related to cybersecurity topics such as web exploitation, forensics, reverse engineering, cryptography, binary exploitation, and basic skills / trivia. The event will last from Friday, May 24th to Sunday, May 26th.</div>
