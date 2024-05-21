@@ -25,7 +25,7 @@ const Home = () => {
                     <h2 className="title">BTCTF</h2>
                     <div className="text center"><CountdownTimer targetDate="2024-05-24T20:00:00" /></div>
                     <div className="text center">MAY 24-26 2024</div>
-                    <a href="https://btctf.us/">REGISTER HERE</a>
+                    <a href="https://btctf.us/">REGISTER HERE AT btctf.us</a>
                 </div>
                 <div>
                     Sponsored by NJCCIC
